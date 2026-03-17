@@ -51,5 +51,54 @@ Loss: ₹400–₹450 in a single day
 
 Rahul has no way to recover this loss, even though it was caused by external conditions.
 
+### 3. Key Requirements
+From these scenarios, the system must:
+
+* Provide *income protection for gig workers*
+* Detect *external disruptions automatically*
+* Enable *weekly micro-insurance plans*
+* Trigger *instant compensation without manual claims*
+* Ensure *fraud prevention using AI*
+* Be *simple, fast, and accessible*
+
+### 4. Application Workflow
+
+The system operates through a structured pipeline:
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Worker Registration]
+    B --> C[Profile Creation]
+    C --> D[AI Risk Profiling]
+    D --> E[Weekly Plan Selection]
+    E --> F[Real-Time Monitoring]
+    F --> G{Trigger Detected?}
+    G -->|Yes| H[AI Fraud Verification]
+    G -->|No| F
+    H --> I{Valid Claim?}
+    I -->|Yes| J[Generate Claim]
+    I -->|No| K[Reject]
+    J --> L[Instant Payout]
+    L --> M[Dashboard Update]
+    M --> N[End]
+```
+
+
+This workflow ensures that:
+
+* Disruptions are detected *in real time*
+* Claims are *automatically processed*
+* Workers receive *fast and transparent compensation*
+
+### 5. Outcome
+
+The system creates a *financial safety net* for delivery partners by:
+
+* Reducing income uncertainty
+* Providing instant relief during disruptions
+* Strengthening trust in gig-based work systems
+
+This makes the solution *scalable, impactful, and aligned with real-world needs of delivery workers*.
+
 
 

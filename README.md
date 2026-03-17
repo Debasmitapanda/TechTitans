@@ -104,6 +104,43 @@ The system creates a *financial safety net* for delivery partners by:
 
 This makes the solution *scalable, impactful, and aligned with real-world needs of delivery workers*.
 
+## Tech Stack
+
+Our platform uses a modern and scalable technology stack to build an AI-powered parametric insurance system for gig workers.
+
+### Frontend
+
+* **React.js** – For building a fast and responsive web interface
+* **Tailwind CSS** – For modern and clean UI design
+* **Chart.js** – For visualizing analytics and disruption data
+
+### Backend
+
+* **Node.js** – Server-side runtime environment
+* **Express.js** – REST API development and routing
+
+### Database
+
+* **MongoDB** – Stores user profiles, insurance plans, claims, and disruption data
+
+### AI / Machine Learning
+
+* **Python** – Model development and data processing
+* **TensorFlow / PyTorch** – Training disruption prediction models
+* **Scikit-learn** – Fraud detection and risk scoring models
+
+### External APIs
+
+* **OpenWeather API** – Real-time weather monitoring
+* **AQI API** – Air quality index data for pollution detection
+* **Google Maps API** – Location tracking and geo-validation
+
+### Deployment & DevOps
+
+* **Docker** – Containerized application deployment
+* **AWS / Vercel** – Cloud hosting and scalability
+* **GitHub Actions** – Continuous integration and automated workflows
+
 <p align="right"><a href="#top">⬆️ Back to Top</a></p>
 
 

@@ -32,30 +32,8 @@ Their earnings are highly sensitive to external disruptions such as weather, pol
 
 ---
 
-### 2. 🎯 Persona-Based Scenario
 
-#### Scenario 1: Zomato Delivery Partner (Heavy Rainfall 🌧️)
-
-*Name:* Rahul  
-*Platform:* Zomato  
-*City:* Kolkata  
-
-Rahul usually completes 20+ deliveries per day, earning around ₹700 daily.
-
-#### On a day with heavy rainfall (>45mm):
-
-* Orders drop significantly 📉  
-* Roads become unsafe ⚠️  
-* Rahul completes only 6–8 deliveries  
-
-*Income drops to:* ₹250–₹300  
-*Loss:* ₹400–₹450 in a single day  
-
-Rahul has no way to recover this loss, even though it was caused by external conditions.
-
----
-
-### 3. 🧩 Key Requirements
+### 2. 🧩 Key Requirements
 
 From these scenarios, the system must:
 
@@ -68,7 +46,7 @@ From these scenarios, the system must:
 
 ---
 
-### 4. Application Workflow
+### 3. Application Workflow
 
 The system operates through a structured pipeline:
 
@@ -97,13 +75,51 @@ This workflow ensures that:
 * Claims are *automatically processed*
 * Workers receive *fast and transparent compensation*
 
-### 🎯 5. Outcome
+---
+
+### 📊 4. Dashboards
+
+#### Worker Dashboard
+
+Workers can easily track their protection status:
+
+* Weekly coverage status
+* Earnings protected
+* Claims received
+* Active insurance plan
+
+#### Admin Dashboard
+
+Provides an enterprise-level overview for insurers:
+
+* Number of insured workers
+* Risk distribution
+* Claims triggered
+* Weekly payouts
+* Fraud alerts
+
+---
+
+### 🛡️ 5. Adversarial Defense & Anti-Spoofing Strategy
+
+To prevent GPS spoofing and fake claims, InSureGo uses a multi-layer verification system:
+
+* Multi-Source Location Check : Ensures the user’s location is genuine by cross-verifying multiple signals instead of relying only on GPS.
+* Live Photo Verification : Confirms real-world conditions by requiring users to capture live environment images during disruption.
+* Fraud Detection Logic : Identifies suspicious patterns and coordinated fraud attempts using behavioral analysis.
+* Risk-Based Workflow : Balances security and user experience by applying verification steps based on risk level.
+
+---
+
+
+### 🎯 6. Outcome
 
 The system creates a financial safety net for delivery partners by:
 
 * Reducing income uncertainty 📉
 * Providing instant relief during disruptions ⚡
 * Strengthening trust in gig-based work systems 🤝
+* Ensures a secure, fair, and scalable system by preventing fraud while enabling fast payouts for genuine users. 👮
 
 This makes the solution scalable, impactful, and aligned with real-world needs of delivery workers 🚀.
 
